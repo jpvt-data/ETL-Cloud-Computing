@@ -1,4 +1,4 @@
-# Projet DBT - Mini Projet ETL / Cloud Computing
+# Business Case : ETL - Cloud Computing
 
 Ce projet consiste à construire un **pipeline de données complet** pour transformer des données brutes en un entrepôt de données optimisé pour les besoins analytiques. Il utilise des outils tels qu'***Amazon Redshift*** et ***DBT*** pour orchestrer les transformations de données.
 
