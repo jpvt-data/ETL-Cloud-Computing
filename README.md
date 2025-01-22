@@ -28,7 +28,6 @@ L'objectif global est de **permettre à l'entreprise de prendre des décisions s
 ```
 project-root/
 |  README.md
-|  methodologie.md
 |  dbt/
 |    ├── models/
 |    │  ├── staging/
