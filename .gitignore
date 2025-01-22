@@ -1,6 +1,7 @@
 # Fichiers sensibles
 .env
 methodologie.md
+*.pbix
 *.key
 *.pem
 
