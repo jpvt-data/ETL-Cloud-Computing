@@ -9,6 +9,9 @@
 <br><br>
 
 Ce projet consiste à construire un **pipeline de données complet** pour transformer des données brutes en un entrepôt de données optimisé pour les besoins analytiques. Il utilise des outils tels qu'***Amazon Redshift*** et ***DBT*** pour orchestrer les transformations de données.
+<br>
+
+---
 
 ## Contexte
 
@@ -23,6 +26,9 @@ Ces données permettent d'analyser plusieurs aspects clés du business :
 - **Optimisation des coûts** : Calculer les coûts des approvisionnements, notamment pour les articles périssables, afin de mieux gérer les marges.
 
 L'objectif global est de **permettre à l'entreprise de prendre des décisions stratégiques en matière de gestion des stocks, d'optimisation des prix, et de maximisation des ventes**.
+<br>
+
+---
 
 ## Objectifs du projet
 
@@ -30,12 +36,18 @@ L'objectif global est de **permettre à l'entreprise de prendre des décisions s
 2. **Intégration des données** : Transfert des données brutes dans un cluster Redshift Serverless via un bucket S3. (***AWS Redshift***)
 3. **Transformation des données** : Structure et validation des données, documentations. (***Python - DBT***).
 4. **Requêtes analytiques** : Identification des KPI, extraction des insights, visualisation des résultats. (***Python - SQLAlchemy***)
+<br>
+
+---
 
 ## Livrables
 
 - **[Notebook d'analyses et livrables](./notebook/analyses_et_livrables.ipynb)**
 - **[Captures d'Ecran - AWS Console]()**
 - **[Visualisation des Résultats]()**
+<br>
+
+---
 
 ## Structure du dépôt
 
@@ -57,6 +69,8 @@ project-root/
 |    └── analysis_notebook.ipynb
 ```
 
+---
+
 ## Outils utilisés
 
 - **DBT (Data Build Tool)** : Pour orchestrer les transformations et la documentation.
@@ -64,6 +78,7 @@ project-root/
 - **Python** : Pour le chargement des données et les visualisations analytiques.
 - **SQLAlchemy** : Pour interagir avec Redshift via Python.
 - **Jupyter Notebook** : Pour analyser et visualiser les données.
+<br>
 
 ---
 
