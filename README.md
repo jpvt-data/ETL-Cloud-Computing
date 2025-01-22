@@ -18,10 +18,16 @@ L'objectif global est de **permettre à l'entreprise de prendre des décisions s
 
 ## Objectifs du projet
 
-1. **Modélisation des données** : Créer un schéma dénormalisé adapté au DataWarehouse.
-2. **Intégration des données** : Charger les données brutes dans un cluster Redshift Serverless via un bucket S3.
-3. **Transformation des données** : Structurer les données, valider les transformations et générer de la documentation avec DBT.
-4. **Requêtes analytiques** : Identifier les KPI et extraire des insights utiles grâce à des requêtes SQL.
+1. **Modélisation des données** : Analyse du jeu de données et création un schéma dénormalisé adapté au DataWarehouse. (***Python***)
+2. **Intégration des données** : Transfert des données brutes dans un cluster Redshift Serverless via un bucket S3. (***AWS Redshift***)
+3. **Transformation des données** : Structure et validation des données, documentations. (***Python - DBT***).
+4. **Requêtes analytiques** : Identification des KPI, extraction des insights, visualisation des résultats. (***Python - SQLAlchemy***)
+
+## Livrables
+
+- **[Notebook d'analyses et livrables](./notebook/analyses_et_livrables.ipynb)**
+- **[Captures d'Ecran - AWS Console]()**
+- **[Visualisation des Résultats]()**
 
 ## Structure du dépôt
 
@@ -36,16 +42,12 @@ project-root/
 |    ├── seeds/
 |    ├── tests/
 |    └── analysis/
+|  data/
+|    ├── datasets/
+|    ├── images/
 |  notebook/
 |    └── analysis_notebook.ipynb
 ```
-
-## Étapes principales
-
-1. **Exploration et modélisation des données** : Analyse du jeu de données brut et conception d'un schéma physique dénormalisé.
-2. **Chargement dans Redshift** : Transfert des fichiers CSV dans un bucket S3, puis intégration dans Redshift.
-3. **Transformation avec DBT** : Création de modèles, tests et documentation.
-4. **Analyse des données** : Extraction des KPI avec des requêtes SQL et visualisation des résultats.
 
 ## Outils utilisés
 
