@@ -1,0 +1,17 @@
+# Fichiers sensibles
+.env
+methodologie.md
+*.key
+*.pem
+
+# Fichiers de dépendances
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers générés par DBT
+target/
+dbt_packages/
+
+# Fichiers notebook
+.ipynb_checkpoints/
