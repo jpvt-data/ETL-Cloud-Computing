@@ -1,5 +1,10 @@
 # Business Case : ETL - Cloud Computing
 
+<div align="center">
+  <img src="./data/images/Intro_Github_ETL_Cloud_Computing.webp" alt="ETL_Cloud_Computing_Business_Case" width="400">
+</div>
+<br>
+
 Ce projet consiste à construire un **pipeline de données complet** pour transformer des données brutes en un entrepôt de données optimisé pour les besoins analytiques. Il utilise des outils tels qu'***Amazon Redshift*** et ***DBT*** pour orchestrer les transformations de données.
 
 ## Contexte
