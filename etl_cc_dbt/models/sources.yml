@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: source_redshift   # Nom logique de la source (Redshift brut)
+    schema: public          # Schéma de Redshift où se trouvent les tables
+    database: dev           # Nom de la base de données Redshift
+    tables:
+      - name: raw_customers     # Nom de la table brute dans Redshift
+        description: "Table contenant les informations sur les clients"
+      - name: raw_items
+        description: "Table contenant les détails des articles commandés"
+      - name: raw_orders
+        description: "Table contenant les informations sur les commandes"
+      - name: raw_products
+        description: "Table contenant les détails des produits disponibles"
+      - name: raw_stores
+        description: "Table contenant les informations sur les magasins"
+      - name: raw_supplies
+        description: "Table contenant les informations sur les approvisionnements"

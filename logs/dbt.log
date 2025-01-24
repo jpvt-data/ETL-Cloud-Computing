@@ -1,0 +1,169 @@
+[0m16:15:24.077327 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7E1F5E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7E1E7C620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7E4B2E690>]}
+
+
+============================== 16:15:24.093732 | e3ea8b21-9336-4b4f-957a-361f43805ff8 ==============================
+[0m16:15:24.093732 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:15:24.096732 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:17:06.391830 [debug] [MainThread]: Starter project path: D:\BigPapaProject\Anaconda\envs\ETLCC2\Lib\site-packages\dbt\include\starter_project
+[0m16:17:08.261614 [info ] [MainThread]: 
+Your new dbt project "etl_cc_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:17:08.268615 [info ] [MainThread]: Setting up your profile.
+[0m16:17:12.817959 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:17:12.818956 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:19:39.356000 [info ] [MainThread]: Profile etl_cc_dbt written to C:\Users\jpvt\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:19:39.363682 [debug] [MainThread]: Command `dbt init` succeeded at 16:19:39.362689 after 256.03 seconds
+[0m16:19:39.364685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7E4EE8950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7E4B2D5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7E57173E0>]}
+[0m16:19:39.365687 [debug] [MainThread]: Flushing usage events
+[0m16:19:41.555676 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:19:57.842898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020113097F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020112AFBF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020112F298B0>]}
+
+
+============================== 16:19:57.854230 | c9f35b7c-0653-46ec-80fb-ddc08a4cffe9 ==============================
+[0m16:19:57.854230 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:19:57.858561 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m16:19:57.928479 [info ] [MainThread]: dbt version: 1.9.1
+[0m16:19:57.930368 [info ] [MainThread]: python version: 3.12.8
+[0m16:19:57.932370 [info ] [MainThread]: python path: D:\BigPapaProject\Anaconda\envs\ETLCC2\python.exe
+[0m16:19:57.934369 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:19:57.962375 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.mysql'
+[0m16:19:58.483507 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:19:58.484505 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:19:58.735633 [info ] [MainThread]: Using profiles dir at C:\Users\jpvt\.dbt
+[0m16:19:58.741438 [info ] [MainThread]: Using profiles.yml file at C:\Users\jpvt\.dbt\profiles.yml
+[0m16:19:58.743435 [info ] [MainThread]: Using dbt_project.yml file at D:\BigPapaProject\GitHub\ETL-Cloud-Computing\dbt_project.yml
+[0m16:19:58.745438 [info ] [MainThread]: Configuration:
+[0m16:19:58.748439 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:19:58.750440 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:19:58.751438 [info ] [MainThread]: Required dependencies:
+[0m16:19:58.757442 [debug] [MainThread]: Executing "git --help"
+[0m16:19:58.912445 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:19:58.913444 [debug] [MainThread]: STDERR: "b''"
+[0m16:19:58.914443 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:19:58.916560 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:19:58.918448 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:19:58.923163 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_challenge", target "dev" invalid: Runtime Error
+    Could not find adapter type mysql!
+
+
+[0m16:19:58.927165 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\BigPapaProject\GitHub\ETL-Cloud-Computing\dbt_project.yml> not found
+
+[0m16:19:58.935166 [debug] [MainThread]: Command `dbt debug` failed at 16:19:58.935166 after 1.67 seconds
+[0m16:19:58.940190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002011383CC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020113097F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002011345CEF0>]}
+[0m16:19:58.941167 [debug] [MainThread]: Flushing usage events
+[0m16:19:59.404303 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:22:22.777069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002474800A9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002474ABDD3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002474ABDC110>]}
+
+
+============================== 16:22:22.789071 | 126c1e8c-4948-4518-b39c-e4b058afa736 ==============================
+[0m16:22:22.789071 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:22:22.793547 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m16:22:22.853988 [info ] [MainThread]: dbt version: 1.9.1
+[0m16:22:22.855899 [info ] [MainThread]: python version: 3.12.8
+[0m16:22:22.858885 [info ] [MainThread]: python path: D:\BigPapaProject\Anaconda\envs\ETLCC2\python.exe
+[0m16:22:22.861886 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:22:22.883862 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.mysql'
+[0m16:22:23.386474 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:22:23.387477 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:22:23.602067 [info ] [MainThread]: Using profiles dir at C:\Users\jpvt\.dbt
+[0m16:22:23.603941 [info ] [MainThread]: Using profiles.yml file at C:\Users\jpvt\.dbt\profiles.yml
+[0m16:22:23.605067 [info ] [MainThread]: Using dbt_project.yml file at D:\BigPapaProject\GitHub\ETL-Cloud-Computing\dbt_project.yml
+[0m16:22:23.606944 [info ] [MainThread]: Configuration:
+[0m16:22:23.612170 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:22:23.615173 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:22:23.618174 [info ] [MainThread]: Required dependencies:
+[0m16:22:23.619175 [debug] [MainThread]: Executing "git --help"
+[0m16:22:23.761617 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:22:23.762760 [debug] [MainThread]: STDERR: "b''"
+[0m16:22:23.763754 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:22:23.765619 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:22:23.767618 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:22:23.769619 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_challenge", target "dev" invalid: Runtime Error
+    Could not find adapter type mysql!
+
+
+[0m16:22:23.772620 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\BigPapaProject\GitHub\ETL-Cloud-Computing\dbt_project.yml> not found
+
+[0m16:22:23.782006 [debug] [MainThread]: Command `dbt debug` failed at 16:22:23.780895 after 1.59 seconds
+[0m16:22:23.783041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024748E51E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002474800A9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024747F2CA40>]}
+[0m16:22:23.784044 [debug] [MainThread]: Flushing usage events
+[0m16:22:24.241787 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:31:49.317399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002258F3E3A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002258C76E4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002258CB51BB0>]}
+
+
+============================== 16:31:49.329400 | 7c389465-51dc-4d77-80b9-c7b0c4268374 ==============================
+[0m16:31:49.329400 [info ] [MainThread]: Running with dbt=1.9.1
+[0m16:31:49.331400 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m16:31:49.390745 [info ] [MainThread]: dbt version: 1.9.1
+[0m16:31:49.394742 [info ] [MainThread]: python version: 3.12.8
+[0m16:31:49.395741 [info ] [MainThread]: python path: D:\BigPapaProject\Anaconda\envs\ETLCC2\python.exe
+[0m16:31:49.398742 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:31:49.423749 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.mysql'
+[0m16:31:50.001999 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:31:50.004093 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:31:50.237897 [info ] [MainThread]: Using profiles dir at C:\Users\jpvt\.dbt
+[0m16:31:50.240795 [info ] [MainThread]: Using profiles.yml file at C:\Users\jpvt\.dbt\profiles.yml
+[0m16:31:50.241798 [info ] [MainThread]: Using dbt_project.yml file at D:\BigPapaProject\GitHub\ETL-Cloud-Computing\dbt_project.yml
+[0m16:31:50.247327 [info ] [MainThread]: Configuration:
+[0m16:31:50.250325 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:31:50.254329 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:31:50.256326 [info ] [MainThread]: Required dependencies:
+[0m16:31:50.258326 [debug] [MainThread]: Executing "git --help"
+[0m16:31:50.883159 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:31:50.884158 [debug] [MainThread]: STDERR: "b''"
+[0m16:31:50.885159 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:31:50.887160 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:31:50.889283 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:31:50.891161 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_challenge", target "dev" invalid: Runtime Error
+    Could not find adapter type mysql!
+
+
+[0m16:31:50.895029 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\BigPapaProject\GitHub\ETL-Cloud-Computing\dbt_project.yml> not found
+
+[0m16:31:50.902036 [debug] [MainThread]: Command `dbt debug` failed at 16:31:50.901051 after 2.09 seconds
+[0m16:31:50.903031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002258F3E3A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002258EFE7FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002258BE8C530>]}
+[0m16:31:50.905141 [debug] [MainThread]: Flushing usage events
+[0m16:31:51.344117 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:45:47.187199 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB40B14D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB43DCF9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB43DCFC50>]}
+
+
+============================== 10:45:47.236217 | 9132eb8a-5c7d-4bdb-89ed-d86f7ee804a2 ==============================
+[0m10:45:47.236217 [info ] [MainThread]: Running with dbt=1.9.1
+[0m10:45:47.239212 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\jpvt\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --select staging.stg_customers', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:45:47.241213 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\BigPapaProject\GitHub\ETL-Cloud-Computing\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:45:47.244213 [debug] [MainThread]: Command `dbt run` failed at 10:45:47.244213 after 0.89 seconds
+[0m10:45:47.245213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB40B14D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB4440BA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EB444086B0>]}
+[0m10:45:47.247214 [debug] [MainThread]: Flushing usage events
+[0m10:45:47.733080 [debug] [MainThread]: An error was encountered while trying to flush usage events
